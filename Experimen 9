@@ -1,0 +1,25 @@
+class Experiment7 {
+
+    // Area of a square
+    void calculateArea(int side) {
+        System.out.println("Area of square: " + (side * side));
+    }
+
+    // Area of a rectangle
+    void calculateArea(int length, int width) {
+        System.out.println("Area of rectangle: " + (length * width));
+    }
+
+    // Area of a circle
+    void calculateArea(double radius) {
+        System.out.println("Area of circle: " + (3.14 * radius * radius));
+    }
+
+    public static void main(String[] args) {
+        Experiment7 obj = new Experiment7();
+
+        obj.calculateArea(5);        // square
+        obj.calculateArea(10, 20);   // rectangle
+        obj.calculateArea(4.5);      // circle
+    }
+}
